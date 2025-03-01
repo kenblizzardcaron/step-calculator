@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Step Calculator</h1>
+        <label for="stepGoal">Step Goal:</label>
+        <input type="number" id="stepGoal" placeholder="Enter your step goal">
+        
+        <label for="currentSteps">Current Steps:</label>
+        <input type="number" id="currentSteps" placeholder="Enter your current steps">
+        
+        <label for="strideLength">Stride Length (in inches):</label>
+        <input type="number" id="strideLength" placeholder="Enter your stride length in inches">
+        
+        <label for="height">Height (in inches):</label>
+        <input type="number" id="height" placeholder="Enter your height in inches">
+
+        <div class="results">
+            <p id="remainingSteps">Remaining Steps: 0</p>
+            <p id="halfwaySteps">Halfway Point Steps: 0</p>
+            <p id="stepsToHalfway">Steps to Halfway Point: 0</p>
+            <p id="distanceToGoal">Distance to Goal: 0 meters</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
